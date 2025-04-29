@@ -7,43 +7,91 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="./css/index.css" type="text/css">
   <title>コジマノテック</title>
 </head>
 <body>
-  <h1>コジマノテック</h1>
-  <container class="about">
+  <section class="title">
+    <h1 class="title__titie">コジマノテック</h1>
+  </section>
+  <section class="about">
     <h2 class="about__titie">
       About
     </h2>
     <div class="about__description">
       コジマのポートフォリオサイトになります。<br>
-      これまでのエンジニアとしての業務を通して得たスキルについてまとめています。
+      これまでのエンジニアとしての業務を通して得たスキルについてまとめています。<br>
+      職務経歴書は堅い書きっぷりになってしまうので、ラフに私のことを知って頂ければと思います。
     </div>
-  </container>
-  <container class="profile">
+  </section>
+  <section class="profile">
     <h2 class="profile__titie">
       Profile
     </h2>
     <div class="profile__description">
-      慶應義塾大学卒業後、2014年～システムエンジニアとして勤務。<br>
+      1991年生まれ。慶應義塾大学卒業後、2014年～システムエンジニアとして勤務。<br>
       主にWebサービスの開発を得意としている。
     </div>
-  </container>
-  <container class="skill">
+  </section>
+  <section class="skill">
     <h2 class="skill__titie">
       Skill
     </h2>
     <div class="skill__description">
-      
+      <div class="skill_container front">
+        
+      </div>
     </div>
-  </container>
-  <container class="history">
+  </section>
+  <section class="history">
     <h2 class="history__titie">
       History
     </h2>
     <div class="history__description">
-      
+      <ul class="history__list">
+        <li class="history__list-item">
+          <div class="history__list-item-date">～2014年3月</div>
+          <div class="history__list-item-title">慶應義塾大学卒業</div>
+          <div class="history__list-item-description">
+            理工学部数理学科でグラフ理論を専攻していました。<br>
+            今でも数学は好きで、YouTube等でエンターテインメントとして楽しんでます。
+          </div>
+        </li>
+        <li class="history__list-item">
+          <div class="history__list-item-date">2014年4月～2018年7月</div>
+          <div class="history__list-item-title">１社目</div>
+          <div class="history__list-item-description">
+            新卒で入社した会社。<br>
+            C言語、Javaの研修後、Perl/ActionScript/C#メインのレアスキルセットを習得。<br>
+            ActionScriptはFlashを作成するための言語で現在は滅びている。<br>
+            案件の特性上、納品時に工事現場への立ち合いが必要だったため出張が多く、大変だが面白い案件に携われたと思う。<br>
+            今では珍しいオンプレサーバーの構築で、crontabでのバッチ処理, logrotateでのログ管理, ApacheでのNW構築など。<br>
+            またWindowsクライアント端末のキッティング自動化のためにレジストリをハックするなどしてました。
+          </div>
+        </li>
+        <li class="history__list-item">
+          <div class="history__list-item-date">2018年8月～2019年8月</div>
+          <div class="history__list-item-title">２社目</div>
+          <div class="history__list-item-description">
+            2社目。SES。<br>
+            常駐先では保守業務を担当。開発は少なかったが、ルーティン作業をいかに楽するかをずっと考えていた。<br>
+            システムはC++であったが、不具合修正くらいでしか触ってないのでスキルレベルとしてはビギナー。この当時、PowerShellが一番得意でした。<br>
+            当時は業後に勉強会やLT会へ参加したりとエンジニアとして積極的に様々なものに触れてきたのが楽しかったのでまたやりたいですね。
+          </div>
+        </li>
+        <li class="history__list-item">
+          <div class="history__list-item-date">2019年9月～現在</div>
+          <div class="history__list-item-title">３社目</div>
+          <div class="history__list-item-description">
+            3社目。受託/自社開発。<br>
+            様々な案件に携わらせて頂いた。<br>
+            案件フェーズは要件定義～保守と一貫した開発に加え、ポジションはPG～PLとプロジェクト完遂に向けた管理まで経験。<br>
+            TypeScript, Vue.js(Nuxt.js), React(Next.js), Node.jsなどのJS周り扱うのが一番得意。次点でPHP(Laravel), Python<br>
+            激務な環境下であったが、その分年数以上に多くの経験ができたと思っています。
+          </div>
+        </li>
+      </ul>
     </div>
-  </container>
+  </section>
 </body>
 </html
